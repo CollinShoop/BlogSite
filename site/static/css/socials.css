@@ -2,65 +2,67 @@
     Modified from:
         https://codingnconcepts.com/hugo/social-icons-hugo/
 */
+:root {
+    --social-icon-size: 3.5em;
+}
 
-.social-share {
+.social-ref {
     position: relative;
     top: -0.5em;
 }
 
-.social-share ul {
+.social-ref ul {
     margin: 0;
 }
 
-.social-share ul li p {
+.social-ref ul li p {
     display: none;
 }
 
-.social-share .share-icons li {
+.social-ref .social-icons li {
     padding: 0 !important;
     padding-bottom: 10px !important;
 }
 
-.social-share .share-btn {
+.social-ref .social-btn {
     padding: 0.25em;
-    width: 3em;
+    width: var(--social-icon-size);
 }
 
-ul.share-icons {
+ul.social-icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
     margin-top: 1em;
 }
 
-ul.share-icons li {
+ul.social-icons li {
     display: inline-block;
     padding: 0 1em 0 0;
 }
 
-ul.share-icons li:last-child {
+ul.social-icons li:last-child {
     padding-right: 0;
 }
 
-ul.share-icons li > * {
+ul.social-icons li > * {
     text-decoration: none;
     border: 0;
 }
 
-ul.share-icons li > *:before {
+ul.social-icons li > *:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important;
 }
 
-ul.share-icons li > * .label {
+ul.social-icons li > * .label {
     display: none;
 }
 
-.share-btn {
+.social-btn {
     display: inline-block;
     fill: var(--color);
     color: inherit;
@@ -72,11 +74,11 @@ ul.share-icons li > * .label {
     text-decoration: none;
 }
 
-.share-btn:hover {
+.social-btn:hover {
     fill: var(--color-secondary);
 }
 
-.share-btn:active {
+.social-btn:active {
     position: relative;
     top: 2px;
     box-shadow: none;
