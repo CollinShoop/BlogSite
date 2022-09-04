@@ -1,0 +1,83 @@
+/*
+    Modified from:
+        https://codingnconcepts.com/hugo/social-icons-hugo/
+*/
+
+.social-share {
+    position: relative;
+    top: -0.5em;
+}
+
+.social-share ul {
+    margin: 0;
+}
+
+.social-share ul li p {
+    display: none;
+}
+
+.social-share .share-icons li {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+}
+
+.social-share .share-btn {
+    padding: 0.25em;
+    width: 3em;
+}
+
+ul.share-icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+}
+
+ul.share-icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+    padding-right: 0;
+}
+
+ul.share-icons li > * {
+    text-decoration: none;
+    border: 0;
+}
+
+ul.share-icons li > *:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+    display: none;
+}
+
+.share-btn {
+    display: inline-block;
+    fill: var(--color);
+    color: inherit;
+    background: inherit;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.share-btn:hover {
+    fill: var(--color-secondary);
+}
+
+.share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
