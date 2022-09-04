@@ -3,19 +3,10 @@
 {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
 <section class="social-share">
     <ul class="share-icons">
-        <!-- LinkedIn -->
         <li>
             <a href="https://www.linkedin.com/in/collin-shoop-b7b45387/" target="_blank" rel="noopener" aria-label="View my LinkedIn" class="share-btn linkedin">
                 {{ partial "svg/linkedin-round.svg" (dict "class" "widget-social__link-icon") }}
                 <p>LinkedIn</p>
-            </a>
-        </li>
-
-        <!-- Email -->
-        <li>
-            <a href="mailto:shoopcollin@gmail.com" target="_blank" class="share-btn email">
-                {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }}
-                <p>Email</p>
             </a>
         </li>
     </ul>
