@@ -1,19 +1,14 @@
-{{ $title := .Title }}
-{{ $url := printf "%s" .Permalink }}
-{{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
-<section class="social-ref">
-    <ul class="social-icons">
-        <li>
-            <a href="https://github.com/CollinShoop" target="_blank" rel="noopener" aria-label="View my GitHub" class="social-btn">
-                {{ partial "svg/github.svg" }}
-                <p>GitHub</p>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/collin-shoop-b7b45387/" target="_blank" rel="noopener" aria-label="View my LinkedIn" class="social-btn">
-                {{ partial "svg/linkedin-circled.svg" }}
-                <p>LinkedIn</p>
-            </a>
-        </li>
-    </ul>
-</section>
+{{ if .Site.Params.social.show }}
+    <section class="social-ref">
+        <ul class="social-icons">
+            {{ range .Site.Params.social.link }}
+                <li>
+                    <a href="{{ .href }}" target="_blank" aria-label="View my {{ .name }}" class="social-btn">
+                        {{ partial .svg }}
+                        <p>{{ .name }}</p>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </section>
+{{ end }}

@@ -16,6 +16,7 @@ Here's some useful resources I used to put this project together
 
 - [Hugo: Quickstart](https://gohugo.io/getting-started/quick-start/)
 - [Hugo: Deploying as a static site](https://gohugo.io/hosting-and-deployment/hugo-deploy/)
+- [Hugo: Add Social Icons in Hugo Website Pages](https://codingnconcepts.com/hugo/social-icons-hugo/)
 - [Google Cloud: Hosting a static website](https://cloud.google.com/storage/docs/hosting-static-website)
 
 and some others which may or may not be useful to others putting together a similar project
