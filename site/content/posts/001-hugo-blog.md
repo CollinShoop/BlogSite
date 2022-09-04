@@ -12,7 +12,7 @@ summary: "How I deployed a Hugo static website to Google Cloud in just a few qui
 1. https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages 
 
 ## Hugo config
-```toml
+{{< code language="toml" title="Really cool snippet" id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
 baseurl = "/"
 languageCode = "en-us"
 title = 'My New Hugo Site'
@@ -20,43 +20,43 @@ theme = "hello-friend"
 paginate = 5
 
 [params]
-  # dir name of your blog content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+# dir name of your blog content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "posts"
 
-  # OS theme is default when not provided, but you can force it to "light" or "dark"
-  defaultTheme = "dark"
+# OS theme is default when not provided, but you can force it to "light" or "dark"
+defaultTheme = "dark"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 3
 
-  # Show reading time in minutes for posts
-  showReadingTime = false
+# Show reading time in minutes for posts
+showReadingTime = false
 
-  # Show table of contents at the top of your posts (defaults to false)
-  # Alternatively, add this param to post front matter for specific posts
-  # toc = true
+# Show table of contents at the top of your posts (defaults to false)
+# Alternatively, add this param to post front matter for specific posts
+# toc = true
 
-  # Show full page content in RSS feed items
-  #(default is Description or Summary metadata in the front matter)
-  # rssFullText = true
+# Show full page content in RSS feed items
+#(default is Description or Summary metadata in the front matter)
+# rssFullText = true
 
 [languages]
-  [languages.en]
-    title = "CShoop"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Collin Shoop"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    lastModDisplay = "Last modified:"
+[languages.en]
+title = "CShoop"
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+writtenBy = "Collin Shoop"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+minuteReadingTime = "min read"
+dateFormatSingle = "2006-01-02"
+dateFormatList = "2006-01-02"
+# leave empty to disable, enter display text to enable
+lastModDisplay = "Last modified:"
 
     [languages.en.params.logo]
       logoText = "CS"
@@ -138,7 +138,8 @@ gzip = true
 [[deployment.matchers]]
 pattern = "^.+\\.(html|xml|json)$"
 gzip = true
-```
+{{< /code >}}
+
 
 ## Helper Make
 ```makefile
