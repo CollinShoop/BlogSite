@@ -5,7 +5,7 @@ draft: false
 summary: "How I deployed a Hugo static website to Google Cloud in just a few quick hours!"
 ---
 
-![TODO](/img/todo.jpg)
+{{< image src="/img/under-construction.png" position="center" >}}
 
 ## Helpful references
 1. https://gohugo.io/getting-started/quick-start/
