@@ -33,13 +33,13 @@ toc = true
 
         [[Params.social.link]]
         name = "LinkedIn"
-        href = "https://www.linkedin.com/feed/"
         svg = "svg/linkedin-circled.svg"
+        href = "https://www.linkedin.com/in/collin-shoop-b7b45387/"
 
         [[Params.social.link]]
         name = "Github"
-        href = "https://www.github.com/"
         svg = "svg/github.svg"
+        href = "https://github.com/CollinShoop"
 
 [languages]
   [languages.en]
