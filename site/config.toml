@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = 'My New Hugo Site'
+title = 'CShoop'
 theme = "hello-friend"
 paginate = 5
 
@@ -70,7 +70,6 @@ paginate = 5
 # Files that match the regular expressions in the "Order" list
 # will be uploaded first, in the listed order.
 order = [".jpg$", ".gif$"]
-
 
 [[deployment.targets]]
 # An arbitrary name for this target.
