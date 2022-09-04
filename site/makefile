@@ -11,4 +11,4 @@ hugo-deploy:
 	hugo && hugo deploy
 
 invalidate-cdn:
-	gcloud compute url-maps invalidate-cdn-cache $GOOGLE_LB_ID --path "/*"
+	gcloud compute url-maps invalidate-cdn-cache $(GOOGLE_LB_ID) --path "/*"
