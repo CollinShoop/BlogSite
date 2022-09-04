@@ -1,8 +1,14 @@
-start:
-	hugo server -t hello-friend --disableFastRender
+.PHONY: start deploy hugo-deploy invalidate-cdn
 
-deploy:
+GOOGLE_LB_ID=collinshoop-com-hugo-lb
+
+start:
+	hugo server -w
+
+deploy: hugo-deploy invalidate-cdn
+
+hugo-deploy:
 	hugo && hugo deploy
 
 invalidate-cdn:
-	gcloud compute url-maps invalidate-cdn-cache collinshoop-com-hugo-lb --path "/*"
+	gcloud compute url-maps invalidate-cdn-cache $GOOGLE_LB_ID --path "/*"
