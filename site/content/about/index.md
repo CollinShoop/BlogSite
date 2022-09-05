@@ -3,6 +3,7 @@ title: "Welcome"
 date: 2022-09-04T00:13:08-04:00
 draft: false
 socialshare: true
+tags: ["welcome", "about me"]
 ---
 
 {{< image src="/img/profile.jpg" 

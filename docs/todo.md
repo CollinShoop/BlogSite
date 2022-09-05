@@ -6,3 +6,4 @@
 - Fill out some more ABOUT me and PROJECTS info
 - Add links to GitHub / LinkedIn
 - Add an automated GitHub deploy action
+- Fix occasional theme flicker when pages are loaded

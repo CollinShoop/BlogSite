@@ -1,0 +1,86 @@
+<!-- Styles and HTML are modified from https://codepen.io/omarsherifs/pen/KGLYYW -->
+<div class="searchBox">
+    <!-- see script above for event listener -->
+    <input id="search-input" class="searchInput" type="text" placeholder="Search">
+    <button class="searchButton" onclick="submitSearch(true)">
+        {{ partial "svg/material-design/search.svg" }}
+    </button>
+</div>
+<script>
+    // Process each keystroke, once the user presses an Enter key the page will redirect to the
+    // /search page which is ASSUMED to exist.
+    document.addEventListener('DOMContentLoaded', () => {
+        const searchInput = document.getElementById('search-input');
+        if (searchInput == null) {
+            console.trace('no search-input found. search box will not work as expected')
+            return;
+        }
+        searchInput.addEventListener('keydown', function (ele) {
+            if (ele.key === 'Enter') {
+                submitSearch(false);
+            }
+        });
+    })
+
+    function submitSearch(fromButton) {
+        const searchInput = document.getElementById('search-input');
+        if (fromButton) {
+            searchInput.focus();
+        }
+        if (searchInput?.value === "" && fromButton) {
+            return;
+        }
+        window.location.href = `/search?q=${encodeURIComponent(searchInput?.value)}`;
+    }
+</script>
+<style>
+    .searchBox {
+        /*TODO border radius should be 50% of height*/
+        border-radius: 40px;
+        padding: 10px;
+        /* Vertically center input */
+        display: flex;
+    }
+    .searchBox:hover {
+        background: var(--background-secondary);
+    }
+
+    .searchButton {
+        background: none;
+        float: right;
+        fill: var(--color);
+    }
+    .searchButton:hover {
+        fill: var(--color-secondary);
+    }
+
+    .searchInput {
+        border:none;
+        background: none;
+        outline:none;
+        padding: 0;
+        color: var(--color);
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        transition: 0.4s;
+        width: 0;
+    }
+    /*
+       show search input on hover or while it has focus
+
+       showing when focused is important to avoid awkward behavior when moving your mouse off
+       the input area for any reason (eg selecting an auto-fill drop down)
+     */
+    .searchInput:focus, .searchBox:hover > .searchInput {
+        width: 240px;
+        padding: 0 6px;
+    }
+    @media screen and (max-width: 500px) {
+        .searchInput:focus, .searchBox:hover > .searchInput {
+            width: 150px;
+            padding: 0 6px;
+        }
+    }
+</style>
