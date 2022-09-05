@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = 'CShoop'
+title = 'Collin Shoop'
 theme = "hello-friend"
 paginate = 5
 
