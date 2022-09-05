@@ -15,10 +15,5 @@ It's much more convenient to fork a nice looking Hugo theme like [hello-friend](
 Here's some useful resources I used to put this project together
 
 - [Hugo: Quickstart](https://gohugo.io/getting-started/quick-start/)
-- [Hugo: Deploying as a static site](https://gohugo.io/hosting-and-deployment/hugo-deploy/)
 - [Hugo: Add Social Icons in Hugo Website Pages](https://codingnconcepts.com/hugo/social-icons-hugo/)
-- [Google Cloud: Hosting a static website](https://cloud.google.com/storage/docs/hosting-static-website)
-
-and some others which may or may not be useful to others putting together a similar project
-
-- [Digital Ocean: How to build and deploy a hugo site to DigitalOcean App Platform](https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-hugo-site-to-digitalocean-app-platform)
+- [Hugo: Implementing Custom Search by Sebz](https://gist.github.com/sebz/efddfc8fdcb6b480f567)

@@ -1,4 +1,15 @@
+# IDE Specific
 /.idea/*
+
+# Locks
+/package-lock.json
 /site/.hugo_build.lock
-/site/public/
+/site/grunt/package-lock.json
 /site/themes/hello-friend/package-lock.json
+
+# Should always be lazy generated before each deployment
+/site/public/
+/site/static/js/lunr/index.json
+
+# Misc
+/site/grunt/yarn-error.log

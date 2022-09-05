@@ -26,8 +26,11 @@ toc = true
 #(default is Description or Summary metadata in the front matter)
 # rssFullText = true
 
-    # Custom social links found in the footer
-    # rendered with layouts/partials/socials.html
+    # Enable custom search in the header. See layouts/partials/extended_search.html
+    [Params.search]
+    enabled = true
+
+    # Enable custom social links found in the footer. See layouts/partials/socials.html
     [Params.social]
     show = true
 
@@ -79,6 +82,12 @@ toc = true
         name = "Resume"
         url = "/resume.pdf"
         target = "_blank"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Makes it so that "unsafe" html is allowed to be rendered in markdown content
+      unsafe = true
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
