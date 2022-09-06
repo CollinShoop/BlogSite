@@ -80,9 +80,9 @@ function renderQuery(query, numResults) {
 function renderResults(searchResults, eResults) {
     const eList = $("<ol>");
 
-    // for now show only first 10 results
-    // TODO add local pagination
-    searchResults.slice(0, 10).forEach(function (result) {
+    // for now show only first 100 results
+    // TODO add pagination
+    searchResults.slice(0, 100).forEach(function (result) {
         // render results as new html as children in the
         const eResult = $("<li><p>");
 
@@ -94,10 +94,14 @@ function renderResults(searchResults, eResults) {
         }));
         eTitleLink.append(` - ${result.href}`)
         eResult.append(eTitleLink);
-
         if (result.summary != null) {
             eResult.append($("<p>", {
                 text: `${result.summary}`
+            }));
+        }
+        if (result.tags != null && result.tags.length > 0) {
+            eResult.append($("<p>", {
+                text: `[${result.tags.join(", ")}]`
             }));
         }
         eList.append(eResult);
