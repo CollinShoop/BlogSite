@@ -24,7 +24,11 @@ function runSearch() {
 }
 
 function getQuery() {
-    return decodeURIComponent(new URLSearchParams(window.location.search).get(urlQueryParam));
+    let q = new URLSearchParams(window.location.search).get(urlQueryParam);
+    if (q == null) {
+        q = "";
+    }
+    return decodeURIComponent(q);
 }
 
 /**
