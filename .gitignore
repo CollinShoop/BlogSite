@@ -1,13 +1,16 @@
 # IDE Specific
 /.idea/*
 
-# Locks
-/package-lock.json
+# Hugo
 /site/.hugo_build.lock
+
+# Node
+/package-lock.json
 /site/grunt/package-lock.json
+/site/grunt/node_modules/
 /site/themes/hello-friend/package-lock.json
 
-# Should always be lazy generated before each deployment
+# Generated content
 /site/public/
 /site/static/js/lunr/index.json
 /script/gh/gists.json
