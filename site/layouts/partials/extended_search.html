@@ -30,7 +30,7 @@
         if (searchInput?.value === "" && fromButton) {
             return;
         }
-        window.location.href = `/search?q=${encodeURIComponent(searchInput?.value)}`;
+        window.location.href = `/search/?q=${encodeURIComponent(searchInput?.value)}`;
     }
 </script>
 <style>
