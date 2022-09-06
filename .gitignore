@@ -10,6 +10,8 @@
 # Should always be lazy generated before each deployment
 /site/public/
 /site/static/js/lunr/index.json
+/script/gh/gists.json
+/script/gh/prs.json
 
 # Misc
 /site/grunt/yarn-error.log

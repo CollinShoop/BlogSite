@@ -1,0 +1,47 @@
+{
+  "url": "https://api.github.com/gists/d71b9fbf075e500fc578274fdd73dcd4",
+  "forks_url": "https://api.github.com/gists/d71b9fbf075e500fc578274fdd73dcd4/forks",
+  "commits_url": "https://api.github.com/gists/d71b9fbf075e500fc578274fdd73dcd4/commits",
+  "id": "d71b9fbf075e500fc578274fdd73dcd4",
+  "node_id": "G_kwDOAS5-z9oAIGQ3MWI5ZmJmMDc1ZTUwMGZjNTc4Mjc0ZmRkNzNkY2Q0",
+  "git_pull_url": "https://gist.github.com/d71b9fbf075e500fc578274fdd73dcd4.git",
+  "git_push_url": "https://gist.github.com/d71b9fbf075e500fc578274fdd73dcd4.git",
+  "html_url": "https://gist.github.com/d71b9fbf075e500fc578274fdd73dcd4",
+  "files": {
+    "quick_sort.java": {
+      "filename": "quick_sort.java",
+      "type": "text/x-java-source",
+      "language": "Java",
+      "raw_url": "https://gist.githubusercontent.com/CollinShoop/d71b9fbf075e500fc578274fdd73dcd4/raw/0d4184f36f9162398fc04c78b82dd21f1ba51b52/quick_sort.java",
+      "size": 1798
+    }
+  },
+  "public": true,
+  "created_at": "2022-03-13T21:45:47Z",
+  "updated_at": "2022-03-13T21:56:34Z",
+  "description": "[Java] Quick Sort",
+  "comments": 0,
+  "user": null,
+  "comments_url": "https://api.github.com/gists/d71b9fbf075e500fc578274fdd73dcd4/comments",
+  "owner": {
+    "login": "CollinShoop",
+    "id": 19824335,
+    "node_id": "MDQ6VXNlcjE5ODI0MzM1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19824335?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/CollinShoop",
+    "html_url": "https://github.com/CollinShoop",
+    "followers_url": "https://api.github.com/users/CollinShoop/followers",
+    "following_url": "https://api.github.com/users/CollinShoop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CollinShoop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/CollinShoop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/CollinShoop/subscriptions",
+    "organizations_url": "https://api.github.com/users/CollinShoop/orgs",
+    "repos_url": "https://api.github.com/users/CollinShoop/repos",
+    "events_url": "https://api.github.com/users/CollinShoop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/CollinShoop/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "truncated": false
+}

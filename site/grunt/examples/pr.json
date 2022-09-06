@@ -1,0 +1,9 @@
+{
+  "createdAt": "2021-08-10T16:16:25Z",
+  "repository": {
+    "nameWithOwner": "digitalocean/docker-distribution"
+  },
+  "title": "storagedriver/s3: Handle bulk delete partial failures as failure",
+  "updatedAt": "2022-02-11T00:46:48Z",
+  "url": "https://github.com/digitalocean/docker-distribution/pull/19"
+}
