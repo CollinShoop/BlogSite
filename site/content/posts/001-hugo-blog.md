@@ -1,7 +1,7 @@
 ---
 title: "Creating this website w/Hugo"
 date: 2022-09-03T20:58:42-04:00
-draft: false
+draft: true
 summary: "How I deployed a Hugo static website to Google Cloud in just a few quick hours!"
 ---
 
