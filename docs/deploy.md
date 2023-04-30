@@ -1,6 +1,13 @@
 # Deployment
 
-Under Construction
+## Dependencies
+
+1. Install Hugo https://gohugo.io/installation/ and run `hugo version` to check it's installed
+
+## Run local
+
+1. change directory to `site/` and `make start`
+2. Connect to localhost:1313
 
 ## Useful Links
 
