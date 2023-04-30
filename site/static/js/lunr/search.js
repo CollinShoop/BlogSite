@@ -92,10 +92,9 @@ function renderResults(searchResults, eResults) {
 
         const eTitleLink = $("<a>", {
             href: result.href,
-        });
-        eTitleLink.append($("<b>", {
+            class: 'search_result',
             text: `${result.title}`
-        }));
+        });
         eTitleLink.append(` - ${result.href}`)
         eResult.append(eTitleLink);
         if (result.summary != null) {

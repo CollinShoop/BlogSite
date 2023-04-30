@@ -1,8 +1,11 @@
 ---
 title: "Creating this website w/Hugo"
 date: 2022-09-03T20:58:42-04:00
-draft: true
-summary: "How I deployed a Hugo static website to Google Cloud in just a few quick hours!"
+author: "Collin Shoop"
+cover: "/img/under-construction.png"
+description: "How I deployed a Hugo static website to Google Cloud in just a few quick hours!"
+tags: ["hugo", "web", "first"]
+draft: false
 ---
 
 {{< image src="/img/under-construction.png" position="center" >}}

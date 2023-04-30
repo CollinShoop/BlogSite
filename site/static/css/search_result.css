@@ -1,0 +1,38 @@
+/* Vars should all be done for light and dark theme */
+:root, body.light-theme {
+    --color-link-primary: #1f0edd;
+    --color-link-active: #1f0edd;
+    --color-link-visited: #8a00ff;
+}
+:root, body.dark-theme {
+    --color-link-primary: #8ab4f8;
+    --color-link-active: #8ab4f8;
+    --color-link-visited: #c58af9;
+}
+
+/* Search result is used on /search */
+a.search_result{
+    font-size: 1.2rem;
+    color: var(--color-link-primary);
+    padding-top: 10px;
+}
+a.search_result:link {
+  color: var(--color-link-primary);
+  background-color: transparent;
+  text-decoration: none;
+}
+a.search_result:visited {
+  color: var(--color-link-visited);
+  background-color: transparent;
+  text-decoration: none;
+}
+a.search_result:hover {
+  color: var(--color-link-active);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.search_result:active {
+  color: var(--color-link-active0;
+  background-color: transparent;
+  text-decoration: underline;
+}
