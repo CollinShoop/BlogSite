@@ -1,0 +1,410 @@
+[
+  {
+    "title": "Welcome",
+    "tags": [
+      "welcome",
+      "about me"
+    ],
+    "href": "/about/",
+    "date": "2022-09-04T04:13:08.000Z"
+  },
+  {
+    "title": "Creating this website w/Hugo",
+    "tags": [
+      "hugo",
+      "web",
+      "first"
+    ],
+    "href": "/posts/001-hugo-blog",
+    "date": "2022-09-04T00:58:42.000Z"
+  },
+  {
+    "title": "Projects",
+    "href": "/projects/",
+    "date": "2022-09-04T04:22:13.000Z"
+  },
+  {
+    "title": "Search Results",
+    "href": "/search/",
+    "date": "2023-04-30T04:22:13.000Z"
+  },
+  {
+    "title": "[GitHub Gist] Java example for Indexing",
+    "href": "https://gist.github.com/6b051d9846219b6cec9f22616f3d6900",
+    "tags": [
+      "Go",
+      "Java"
+    ],
+    "summary": "file1.go, file2.python, file3.java",
+    "date": "2022-09-05T21:45:50.000Z"
+  },
+  {
+    "title": "[GitHub Gist] [Java] Quick Sort",
+    "href": "https://gist.github.com/d71b9fbf075e500fc578274fdd73dcd4",
+    "tags": [
+      "Java"
+    ],
+    "summary": "quick_sort.java",
+    "date": "2022-03-13T21:56:34.000Z"
+  },
+  {
+    "title": "[GitHub Gist] [Java] Merge sort",
+    "href": "https://gist.github.com/7438da59ba45b9dbb1e9f143f6d04aed",
+    "tags": [
+      "Java"
+    ],
+    "summary": "merge_sort.java",
+    "date": "2022-03-13T17:18:32.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/text-justification/",
+    "href": "https://gist.github.com/f204cd045b5153287b6ec189bd64ced6",
+    "tags": [],
+    "summary": "Leetcode: 68. Text Justification",
+    "date": "2022-03-04T15:54:41.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/find-leaves-of-binary-tree/",
+    "href": "https://gist.github.com/ed49e4034babc8aa619d04552abaa9d8",
+    "tags": [],
+    "summary": "Leetcode: 366. Find Leaves of Binary Tree",
+    "date": "2022-03-04T15:03:41.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "href": "https://gist.github.com/fa36a11d5a38cd9f1637b2749f4ffb9e",
+    "tags": [],
+    "summary": "Leetcode: 150. Evaluate Reverse Polish Notation",
+    "date": "2022-03-04T14:20:07.000Z"
+  },
+  {
+    "title": "[GitHub Gist] Cracking the Coding Interview: URLIfy (solution)",
+    "href": "https://gist.github.com/c831d933326ffb0846b6c38cd436b5ab",
+    "tags": [],
+    "summary": "Cracking the Coding Interview: URLIfy (solution)",
+    "date": "2022-02-13T22:56:26.000Z"
+  },
+  {
+    "title": "[GitHub Gist] Cracking the Coding Interview: URLIfy (unsolved)",
+    "href": "https://gist.github.com/cd070f261b582b567551aa64862c3e09",
+    "tags": [],
+    "summary": "Cracking the Coding Interview: URLIfy (unsolved)",
+    "date": "2022-02-13T22:54:44.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "href": "https://gist.github.com/c68be0cf42a75e39370be4195dd7b325",
+    "tags": [],
+    "summary": "Leetcode: 235. Lowest Common Ancestor of a Binary Search Tree",
+    "date": "2022-01-23T05:01:40.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+    "href": "https://gist.github.com/501d54554ebd67e65c363ae973d8ebe0",
+    "tags": [],
+    "summary": "Leetcode: 653. Two Sum IV - Input is a BST",
+    "date": "2022-01-23T04:31:26.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/validate-binary-search-tree/",
+    "href": "https://gist.github.com/c88dc4f54201996664631052e48f5e27",
+    "tags": [],
+    "summary": "Leetcode: 98. Validate Binary Search Tree",
+    "date": "2022-01-23T04:23:28.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/search-in-a-binary-search-tree/",
+    "href": "https://gist.github.com/b1d00b134e822e3deaa4bef42d39506c",
+    "tags": [],
+    "summary": "Leetcode: 700. Search in a Binary Search Tree",
+    "date": "2022-01-23T04:06:25.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/path-sum/",
+    "href": "https://gist.github.com/fb434e5eafbf9b118b0f92e40c71623f",
+    "tags": [],
+    "summary": "Leetcode: 112. Path Sum",
+    "date": "2022-01-23T04:01:00.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/invert-binary-tree/",
+    "href": "https://gist.github.com/960622a9abc95a1d7e1e5bedb16cd473",
+    "tags": [],
+    "summary": "Leetcode: 226. Invert Binary Tree",
+    "date": "2022-01-23T03:54:08.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/symmetric-tree/ -- Definitely seems more like a medium",
+    "href": "https://gist.github.com/e16518af3352e4e2c0b28cb5d0adc290",
+    "tags": [],
+    "summary": "Leetcode: 101. Symmetric Tree",
+    "date": "2022-01-23T03:49:16.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "href": "https://gist.github.com/84f25dbc298770c7d763b163f393e7d0",
+    "tags": [],
+    "summary": "Leetcode: 104. Maximum Depth of Binary Tree",
+    "date": "2022-01-23T03:39:58.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "href": "https://gist.github.com/48e9f14c470880493aa53efcad756a5a",
+    "tags": [],
+    "summary": "Leetcode: 102. Binary Tree Level Order Traversal",
+    "date": "2022-01-23T03:34:39.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "href": "https://gist.github.com/78c000976eb9baf3877e0d4bea26c173",
+    "tags": [],
+    "summary": "Leetcode: 144. Binary Tree Preorder Traversal (100%)",
+    "date": "2022-01-22T03:01:07.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/valid-parentheses/",
+    "href": "https://gist.github.com/014b401a5934538d28623bc4870f851f",
+    "tags": [],
+    "summary": "Leetcode: 20. Valid Parentheses (100%)",
+    "date": "2022-01-22T02:53:01.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+    "href": "https://gist.github.com/97fe1fca0355b645288ca11e382a1adf",
+    "tags": [],
+    "summary": "Leetcode: 83. Remove Duplicates from Sorted List",
+    "date": "2022-01-22T02:44:09.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/remove-linked-list-elements/",
+    "href": "https://gist.github.com/565ac69688e481452a50013670a29665",
+    "tags": [],
+    "summary": "Leetcode: 203. Remove Linked List Elements",
+    "date": "2022-01-22T02:38:50.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/reverse-linked-list/",
+    "href": "https://gist.github.com/1d21274cbcf679136ad97768861b8a75",
+    "tags": [],
+    "summary": "Leetcode: 206. Reverse Linked List",
+    "date": "2022-01-22T02:32:34.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/merge-two-sorted-lists/",
+    "href": "https://gist.github.com/a71d95891853f6d8d287f3aea5d9dd7c",
+    "tags": [],
+    "summary": "Leetcode: 21. Merge Two Sorted Lists (100%)",
+    "date": "2022-07-18T19:24:59.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/linked-list-cycle/",
+    "href": "https://gist.github.com/4aa8d3f89dd35d94c8747cd3666b02ed",
+    "tags": [],
+    "summary": "Leetcode: 141. Linked List Cycle",
+    "date": "2022-01-21T04:27:43.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/valid-anagram/",
+    "href": "https://gist.github.com/fcaf1900686b4d8f59fa8d6ac950e02e",
+    "tags": [],
+    "summary": "Leetcode: 242. Valid Anagram",
+    "date": "2022-01-21T04:08:42.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/ransom-note/",
+    "href": "https://gist.github.com/67d2096ab5954164184a2a10dc42f0a9",
+    "tags": [],
+    "summary": "Leetcode: 383. Ransom Note",
+    "date": "2022-01-21T04:04:22.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "href": "https://gist.github.com/f12fed914a664b2722751536799ec762",
+    "tags": [],
+    "summary": "Leetcode: 387. First Unique Character in a String",
+    "date": "2022-01-21T04:00:54.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/search-a-2d-matrix/",
+    "href": "https://gist.github.com/cf530ee6304392f2d7dbb18381dea044",
+    "tags": [],
+    "summary": "Leetcode: 74. Search a 2D Matrix (100%)",
+    "date": "2022-01-21T03:48:42.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/pascals-triangle/",
+    "href": "https://gist.github.com/1dff82222ce9ffc4646d855daf9d236e",
+    "tags": [],
+    "summary": "Leetcode: 118. Pascal's Triangle (100%)",
+    "date": "2022-01-21T03:19:47.000Z"
+  },
+  {
+    "title": "[GitHub Gist] https://leetcode.com/problems/reshape-the-matrix/",
+    "href": "https://gist.github.com/b80ac0aa90733de044501fcedefdee59",
+    "tags": [],
+    "summary": "Leetcode: 566. Reshape the Matrix (96%)",
+    "date": "2022-01-21T03:19:59.000Z"
+  },
+  {
+    "title": "[GitHub PR] waynr/portfolio: Added instructions for running conformance tests",
+    "href": "https://github.com/waynr/portfolio/pull/15",
+    "summary": "[merged] ",
+    "date": "2022-04-29T18:40:52.000Z"
+  },
+  {
+    "title": "[GitHub PR] waynr/portfolio: Added remaining OCI spec errors",
+    "href": "https://github.com/waynr/portfolio/pull/7",
+    "summary": "[merged] ",
+    "date": "2022-04-29T00:36:39.000Z"
+  },
+  {
+    "title": "[GitHub PR] waynr/portfolio: Add bucket name to S3 config",
+    "href": "https://github.com/waynr/portfolio/pull/2",
+    "summary": "[merged] ",
+    "date": "2022-04-28T16:17:41.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/godo: Prep v1.76 release",
+    "href": "https://github.com/digitalocean/godo/pull/517",
+    "summary": "[merged] Includes #516 ...",
+    "date": "2022-03-10T15:17:56.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/doctl: docr: add region support",
+    "href": "https://github.com/digitalocean/doctl/pull/1118",
+    "summary": "[merged] Changes depend on godo bump...",
+    "date": "2022-03-10T20:57:10.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/godo: registry: Add registry region support",
+    "href": "https://github.com/digitalocean/godo/pull/516",
+    "summary": "[merged] Added DOCR Registry and Options region support to reflect API changes added with CON-5476/CON-5477 (not yet deployed). \r\n\r\nPairs with https://github.c...",
+    "date": "2022-03-08T14:49:44.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/openapi: registry: Added support for new region param",
+    "href": "https://github.com/digitalocean/openapi/pull/589",
+    "summary": "[merged] Not ready for merge until backend work is completed: CON-5476 & CON-5477...",
+    "date": "2022-03-10T15:59:26.000Z"
+  },
+  {
+    "title": "[GitHub PR] WoozyMasta/kube-dump: Added flags to control output structure & another flag for flat dumps",
+    "href": "https://github.com/WoozyMasta/kube-dump/pull/29",
+    "summary": "[merged] Hey @WoozyMasta 👋🏻 Very cool project, I was looking at making something just like this and figured I should contribute instead. \r\n\r\nFor my own use, ...",
+    "date": "2022-02-11T00:45:30.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/csi-digitalocean: Prepare release v4.0.0",
+    "href": "https://github.com/digitalocean/csi-digitalocean/pull/424",
+    "summary": "[merged] ",
+    "date": "2022-02-07T18:07:45.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/clusterlint: Remove v1beta1 admission/controller webhook checks",
+    "href": "https://github.com/digitalocean/clusterlint/pull/135",
+    "summary": "[merged] In response to Varsha's feedback https://digitalocean.slack.com/archives/C4HREK3T6/p1642600991098500 \r\n\r\nbefore\r\n```\r\n$ ./clusterlint --kubeconfig kub...",
+    "date": "2022-01-26T17:09:23.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/digitalocean-cloud-controller-manager: Bump github actions to go 1.17",
+    "href": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/402",
+    "summary": "[merged] Release running into the following \r\n```\r\nvendor/k8s.io/client-go/plugin/pkg/client/auth/exec/metrics.go:21:2: cannot find package \".\" in:\r\n\t/home/run...",
+    "date": "2022-01-14T17:39:24.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/csi-digitalocean: Bumped k8s dependencies to 0.22.5",
+    "href": "https://github.com/digitalocean/csi-digitalocean/pull/422",
+    "summary": "[merged] ```\r\ngo get k8s.io/apimachinery@v0.22.5\r\ngo get k8s.io/mount-utils@v0.22.5\r\ngo get k8s.io/utils@master\r\ngo mod tidy\r\ngo mod vendor\r\n```...",
+    "date": "2022-01-26T15:34:05.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/clusterlint: Upgrade kubernetes dependencies to 0.22.5",
+    "href": "https://github.com/digitalocean/clusterlint/pull/131",
+    "summary": "[merged] CON-4806\r\n\r\n```\r\ngo get k8s.io/client-go@v0.22.5\r\ngo mod tidy\r\ngo mod vendor\r\n```...",
+    "date": "2022-01-12T20:03:02.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/digitalocean-cloud-controller-manager: v0.1.36 changelog",
+    "href": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/400",
+    "summary": "[merged] CON-4801\r\n\r\nUpdate changelog for https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399 ...",
+    "date": "2022-01-14T17:26:12.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/digitalocean-cloud-controller-manager: bump k8s dependencies to 1.22.5",
+    "href": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399",
+    "summary": "[merged] CON-4801\r\n\r\n```\r\nGO111MODULE=on go get k8s.io/client-go@v0.22.5\r\nGO111MODULE=on go get k8s.io/cloud-provider@v0.22.5\r\nGO111MODULE=on go mod tidy\r\nGO11...",
+    "date": "2022-01-14T17:00:40.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/csi-digitalocean: Support v1.22 e2e",
+    "href": "https://github.com/digitalocean/csi-digitalocean/pull/420",
+    "summary": "[merged] CON-4800 \r\n\r\n- vendored 22.5 dependencies \r\n- add 1.22 version support\r\n- upgrade base alpine from `3.11` -> `3.15` (optional, just keeping things up ...",
+    "date": "2022-02-07T14:47:01.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/doctl: pagination: updated pagination to give deterministic and natural ordering",
+    "href": "https://github.com/digitalocean/doctl/pull/1070",
+    "summary": "[merged] The motivation for these changes is to ensure that results are ordered as they were intended to be by the endpoint being called. Currently, pages may ...",
+    "date": "2021-12-08T21:15:44.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/doctl: registry: Add support for ListRepositoriesV2 and ListManifests commands.",
+    "href": "https://github.com/digitalocean/doctl/pull/1069",
+    "summary": "[merged] CON-3907\r\n\r\nRequired bump to godo 1.73...",
+    "date": "2021-12-07T22:42:50.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/godo: Prep v1.73 release",
+    "href": "https://github.com/digitalocean/godo/pull/504",
+    "summary": "[merged] Release for https://github.com/digitalocean/godo/pull/501 ...",
+    "date": "2021-12-03T21:29:55.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/godo: registry: Add ListManfiests and ListRepositoriesV2 api endpoint support + Token pagination",
+    "href": "https://github.com/digitalocean/godo/pull/501",
+    "summary": "[merged] **Changes**\r\n- Adds godo support for new endpoints. See docs PR https://github.com/digitalocean/openapi/pull/567 \r\n\r\nI did go ahead and create a throw...",
+    "date": "2021-12-03T19:20:16.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/openapi: registry/CON-3906: Added documentation for new registry/http endpoints: ListRepositoriesV2 and ListManifests",
+    "href": "https://github.com/digitalocean/openapi/pull/567",
+    "summary": "[merged] - Adds docs for repository `ListManifests` endpoint\r\n- Adds docs for repository `ListRepositoriesV2` endpoint\r\n- Deprecates `ListRepositories` endpoin...",
+    "date": "2022-03-01T17:58:48.000Z"
+  },
+  {
+    "title": "[GitHub PR] distribution/distribution: Optimize storagedriver/s3 Walk (up to ~500x) + small bugfix",
+    "href": "https://github.com/distribution/distribution/pull/3480",
+    "summary": "[merged] [(merged) PR digitalocean/docker-distribution](https://github.com/digitalocean/docker-distribution/pull/17)\r\n\r\n### **Objective**\r\nblobstore enumeratio...",
+    "date": "2021-11-26T01:50:11.000Z"
+  },
+  {
+    "title": "[GitHub PR] distribution/distribution: Updated s3 delete to no longer noop under a rare edge case",
+    "href": "https://github.com/distribution/distribution/pull/3479",
+    "summary": "[merged] fixes https://github.com/distribution/distribution/issues/3142\r\n\r\n[(merged) PR digitalocean/docker-distribution #20](https://github.com/digitalocean/d...",
+    "date": "2021-08-16T14:40:01.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/docker-distribution: storagedriver/s3: Storage driver Delete no longer lists paths other than subpaths",
+    "href": "https://github.com/digitalocean/docker-distribution/pull/20",
+    "summary": "[merged] **Overview**\r\nThese changes address a low level bug which at a minimum is causing the tag service `Untag` method to sometimes not delete the respectiv...",
+    "date": "2021-08-11T20:19:08.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/docker-distribution: storagedriver/s3: Handle bulk delete partial failures as failure",
+    "href": "https://github.com/digitalocean/docker-distribution/pull/19",
+    "summary": "[merged] Updated the S3 Storage Driver `Delete` implementation to now return an error when one or more embedded response errors are returned. \r\n\r\nPart of the `...",
+    "date": "2022-02-11T00:46:48.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/docker-distribution: registry/storagedriver S3 Walk optimization",
+    "href": "https://github.com/digitalocean/docker-distribution/pull/17",
+    "summary": "[merged] [Upstream PR #3480](https://github.com/distribution/distribution/pull/3480)\r\n\r\n### **Objective**\r\nblobstore enumeration with S3 storage driver (and po...",
+    "date": "2021-08-18T13:58:47.000Z"
+  },
+  {
+    "title": "[GitHub PR] digitalocean/docker-distribution: Add mod time to registry blob descriptor",
+    "href": "https://github.com/digitalocean/docker-distribution/pull/15",
+    "summary": "[merged] [DO Related Ticket](https://jira.internal.digitalocean.com/browse/CON-4436)\r\n\r\nThis change is needed to be able to get the file modification (update) ...",
+    "date": "2021-06-24T20:53:18.000Z"
+  }
+]
