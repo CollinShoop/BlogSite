@@ -49,10 +49,15 @@ function indexPrs(grunt) {
 
     const prs = JSON.parse(content)
     for (const pr of prs) {
+        var body = "";
+        if (pr.body != null && pr.body.length > 0) {
+            body = pr.body.substr(0, 150) + " ...";
+        }
         indexes.push({
-            title: `[GitHub PR] ${pr.repository.nameWithOwner} ${pr.title}`,
+            title: `[GitHub PR] ${pr.repository.nameWithOwner}: ${pr.title}`,
             href: pr.url,
-            summary: `Updated ${new Date(pr.updatedAt).toDateString()}`,
+            summary: `[${pr.state}] ${body}`,
+            date: new Date(pr.updatedAt),
         })
     }
     return indexes;
@@ -81,6 +86,8 @@ function indexGists(grunt) {
         return indexes;
     }
 
+    console.log("Finished reading gist content")
+
     // find example of what gist looks like at examples/gist.json
     const gists = JSON.parse(content)
     for (const gist of gists) {
@@ -99,7 +106,8 @@ function indexGists(grunt) {
             title: `[GitHub Gist] ${gist.description}`,
             href: gist.html_url,
             tags: tags,
-            summary: `Updated ${new Date(gist.updated_at).toDateString()} -- ${gistFiles.join(", ")}`,
+            summary: `${gistFiles.join(", ")}`,
+            date: new Date(gist.updated_at),
         })
     }
 
@@ -170,12 +178,16 @@ function indexContent(grunt) {
         }
 
         // Build Lunr index for this page
-        return {
+        let lunr = {
             title: frontMatter.title,
             tags: frontMatter.tags,
             href: href,
             summary: frontMatter.summary,
+            date: new Date(frontMatter.date),
         };
+
+        console.log("lunr: ", lunr)
+        return lunr
     };
 
     grunt.log.ok("Finished indexing /content")

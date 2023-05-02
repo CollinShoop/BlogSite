@@ -3,14 +3,16 @@
     --color-link-primary: #1f0edd;
     --color-link-active: #1f0edd;
     --color-link-visited: #8a00ff;
+    --color-date: #70757a;
 }
 :root, body.dark-theme {
     --color-link-primary: #8ab4f8;
     --color-link-active: #8ab4f8;
     --color-link-visited: #c58af9;
+    --color-date: #c9c9c9;
 }
 
-/* Search result is used on /search */
+/* Links */
 a.search_result{
     font-size: 1.2rem;
     color: var(--color-link-primary);
@@ -32,7 +34,12 @@ a.search_result:hover {
   text-decoration: underline;
 }
 a.search_result:active {
-  color: var(--color-link-active0;
+  color: var(--color-link-active);
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* Date */
+.search_result_date {
+    color: var(--color-date);
 }

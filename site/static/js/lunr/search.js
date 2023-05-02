@@ -88,21 +88,46 @@ function renderResults(searchResults, eResults) {
     // TODO add pagination
     searchResults.slice(0, 100).forEach(function (result) {
         // render results as new html as children in the
-        const eResult = $("<li><p>");
+        let eResult = $("<li><p>");
 
-        const eTitleLink = $("<a>", {
+        // create the title of each search result which is a link to the result
+        $("<a>", {
             href: result.href,
             class: 'search_result',
             text: `${result.title}`
-        });
-        eTitleLink.append(` - ${result.href}`)
-        eResult.append(eTitleLink);
+        }).appendTo(eResult);
+
+        //(optional) add summary with date
         if (result.summary != null) {
-            eResult.append($("<p>", {
-                text: `${result.summary}`
-            }));
+            // start with an empty description
+            let eDesc = $("<p>", {
+                text: "",
+            });
+            eResult.append(eDesc);
+
+            // (optional) prepend summary with formatted date
+            if (result.date != null) {
+                let dateLocal = new Date(result.date).toLocaleDateString();
+                eDesc.append($("<span>", {
+                    class: 'search_result_date',
+                    text: `${dateLocal}`,
+                }));
+                eDesc.append($("<span>", {
+                    text: ` - `,
+                }));
+            }
+
+            // add summary text
+            eDesc.append($("<span>", {
+                text: `${result.summary}`,
+            }))
         }
+
+        // (optional) add tags section
         if (result.tags != null && result.tags.length > 0) {
+            let eTags = $("<p>");
+            eResult.append(eTags);
+
             eResult.append($("<p>", {
                 text: `[${result.tags.join(", ")}]`
             }));
