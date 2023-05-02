@@ -2,12 +2,33 @@
 
 ## Dependencies
 
-1. Install Hugo https://gohugo.io/installation/ and run `hugo version` to check it's installed
+1. [Hugo CLI](https://gohugo.io/installation/)
+1. [GitHub CLI](https://cli.github.com/)
+
+## Update Content
+
+### Github
+
+Steps to pull data from GitHub
+
+1. Change working directory to `script/gh`
+1. Run `make login`
+1. Run `make pull` -- This will update `script/gh/gists.json` and `script/gh/prs.json`
+
+### Lunr
+
+Steps to update the Lunr search index which powers the search feature
+
+1. Change working directory to `site/`
+1. run `make index` -- This updates `site/static/js/lunr/index.json` which is read to populate search results
 
 ## Run local
 
-1. change directory to `site/` and `make start`
-2. Connect to localhost:1313
+Steps to host the website locally. Be sure to update content first! 
+
+1. change directory to `site/`
+1. Start locally with `make local`
+1. Connect to http://localhost:1313
 
 ## Useful Links
 

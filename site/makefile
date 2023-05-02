@@ -3,7 +3,7 @@
 GOOGLE_LB_ID=collinshoop-com-hugo-lb
 
 # Start hugo server locally for testing http://localhost:1313
-start:
+local:
 	hugo server -w
 
 deploy: pull-github-content index-content hugo-deploy
@@ -11,7 +11,7 @@ deploy: pull-github-content index-content hugo-deploy
 pull-github-content:
 	cd ../script/gh && make pull
 
-index-content:
+index:
 	./grunt/lunr-index.sh
 
 hugo-deploy:
