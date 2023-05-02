@@ -14,4 +14,4 @@ gists:
 
 .SILENT:
 prs:
-	gh search prs --author=@me --merged --json title,url,createdAt,updatedAt,repository > prs.json
+	gh search prs --author=@me --merged --json title,url,createdAt,updatedAt,repository,body,commentsCount,labels,state > prs.json

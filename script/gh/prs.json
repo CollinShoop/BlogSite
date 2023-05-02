@@ -1,0 +1,394 @@
+[
+  {
+    "body": "",
+    "commentsCount": 0,
+    "createdAt": "2022-04-29T18:10:15Z",
+    "labels": [],
+    "repository": {
+      "name": "portfolio",
+      "nameWithOwner": "waynr/portfolio"
+    },
+    "state": "merged",
+    "title": "Added instructions for running conformance tests",
+    "updatedAt": "2022-04-29T18:40:52Z",
+    "url": "https://github.com/waynr/portfolio/pull/15"
+  },
+  {
+    "body": "",
+    "commentsCount": 1,
+    "createdAt": "2022-04-28T18:43:11Z",
+    "labels": [],
+    "repository": {
+      "name": "portfolio",
+      "nameWithOwner": "waynr/portfolio"
+    },
+    "state": "merged",
+    "title": "Added remaining OCI spec errors",
+    "updatedAt": "2022-04-29T00:36:39Z",
+    "url": "https://github.com/waynr/portfolio/pull/7"
+  },
+  {
+    "body": "",
+    "commentsCount": 0,
+    "createdAt": "2022-04-28T15:58:37Z",
+    "labels": [],
+    "repository": {
+      "name": "portfolio",
+      "nameWithOwner": "waynr/portfolio"
+    },
+    "state": "merged",
+    "title": "Add bucket name to S3 config",
+    "updatedAt": "2022-04-28T16:17:41Z",
+    "url": "https://github.com/waynr/portfolio/pull/2"
+  },
+  {
+    "body": "Includes #516 ",
+    "commentsCount": 0,
+    "createdAt": "2022-03-09T16:11:43Z",
+    "labels": [],
+    "repository": {
+      "name": "godo",
+      "nameWithOwner": "digitalocean/godo"
+    },
+    "state": "merged",
+    "title": "Prep v1.76 release",
+    "updatedAt": "2022-03-10T15:17:56Z",
+    "url": "https://github.com/digitalocean/godo/pull/517"
+  },
+  {
+    "body": "Changes depend on godo bump",
+    "commentsCount": 1,
+    "createdAt": "2022-03-03T16:23:23Z",
+    "labels": [],
+    "repository": {
+      "name": "doctl",
+      "nameWithOwner": "digitalocean/doctl"
+    },
+    "state": "merged",
+    "title": "docr: add region support",
+    "updatedAt": "2022-03-10T20:57:10Z",
+    "url": "https://github.com/digitalocean/doctl/pull/1118"
+  },
+  {
+    "body": "Added DOCR Registry and Options region support to reflect API changes added with CON-5476/CON-5477 (not yet deployed). \r\n\r\nPairs with https://github.com/digitalocean/openapi/pull/589",
+    "commentsCount": 0,
+    "createdAt": "2022-03-02T21:28:26Z",
+    "labels": [],
+    "repository": {
+      "name": "godo",
+      "nameWithOwner": "digitalocean/godo"
+    },
+    "state": "merged",
+    "title": "registry: Add registry region support",
+    "updatedAt": "2022-03-08T14:49:44Z",
+    "url": "https://github.com/digitalocean/godo/pull/516"
+  },
+  {
+    "body": "Not ready for merge until backend work is completed: CON-5476 & CON-5477",
+    "commentsCount": 4,
+    "createdAt": "2022-03-01T18:25:13Z",
+    "labels": [],
+    "repository": {
+      "name": "openapi",
+      "nameWithOwner": "digitalocean/openapi"
+    },
+    "state": "merged",
+    "title": "registry: Added support for new region param",
+    "updatedAt": "2022-03-10T15:59:26Z",
+    "url": "https://github.com/digitalocean/openapi/pull/589"
+  },
+  {
+    "body": "Hey @WoozyMasta 👋🏻 Very cool project, I was looking at making something just like this and figured I should contribute instead. \r\n\r\nFor my own use, having better control over the output structure would be ideal. I personally do not require resources to be broken up per file, and I also sometimes need all the detailed fields which were being removed via `jq` for debugging purposes (as opposed to backups, which I presume is the primary use case for this tool), so I've added a few new flags.\r\n\r\n",
+    "commentsCount": 6,
+    "createdAt": "2022-02-07T21:16:05Z",
+    "labels": [
+      {
+        "color": "a2eeef",
+        "description": "New feature or request",
+        "id": "MDU6TGFiZWwyNzEwNjM4MzY5",
+        "name": "enhancement"
+      }
+    ],
+    "repository": {
+      "name": "kube-dump",
+      "nameWithOwner": "WoozyMasta/kube-dump"
+    },
+    "state": "merged",
+    "title": "Added flags to control output structure & another flag for flat dumps",
+    "updatedAt": "2022-02-11T00:45:30Z",
+    "url": "https://github.com/WoozyMasta/kube-dump/pull/29"
+  },
+  {
+    "body": "",
+    "commentsCount": 0,
+    "createdAt": "2022-02-07T17:16:02Z",
+    "labels": [],
+    "repository": {
+      "name": "csi-digitalocean",
+      "nameWithOwner": "digitalocean/csi-digitalocean"
+    },
+    "state": "merged",
+    "title": "Prepare release v4.0.0",
+    "updatedAt": "2022-02-07T18:07:45Z",
+    "url": "https://github.com/digitalocean/csi-digitalocean/pull/424"
+  },
+  {
+    "body": "In response to Varsha's feedback https://digitalocean.slack.com/archives/C4HREK3T6/p1642600991098500 \r\n\r\nbefore\r\n```\r\n$ ./clusterlint --kubeconfig kubeconfig-1.21.9 run\r\nW0126 11:37:28.702394   19710 warnings.go:70] admissionregistration.k8s.io/v1beta1 MutatingWebhookConfiguration is deprecated in v1.16+, unavailable in v1.22+; use admissionregistration.k8s.io/v1 MutatingWebhookConfiguration\r\nW0126 11:37:28.701929   19710 warnings.go:70] batch/v1beta1 CronJob is deprecated in v1.21+, unavailable in v1.25+; use batch/v1 CronJob\r\nW0126 11:37:28.868875   19710 warnings.go:70] admissionregistration.k8s.io/v1beta1 ValidatingWebhookConfiguration is deprecated in v1.16+, unavailable in v1.22+; use admissionregistration.k8s.io/v1 ValidatingWebhookConfiguration\r\n```\r\n\r\nafter\r\n```\r\n$ clusterlint --kubeconfig kubeconfig-1.21.9 run\r\nW0126 11:37:55.630756   20226 warnings.go:70] batch/v1beta1 CronJob is deprecated in v1.21+, unavailable in v1.25+; use batch/v1 CronJob\r\n```",
+    "commentsCount": 0,
+    "createdAt": "2022-01-26T16:21:34Z",
+    "labels": [],
+    "repository": {
+      "name": "clusterlint",
+      "nameWithOwner": "digitalocean/clusterlint"
+    },
+    "state": "merged",
+    "title": "Remove v1beta1 admission/controller webhook checks",
+    "updatedAt": "2022-01-26T17:09:23Z",
+    "url": "https://github.com/digitalocean/clusterlint/pull/135"
+  },
+  {
+    "body": "Release running into the following \r\n```\r\nvendor/k8s.io/client-go/plugin/pkg/client/auth/exec/metrics.go:21:2: cannot find package \".\" in:\r\n\t/home/runner/work/digitalocean-cloud-controller-manager/digitalocean-cloud-controller-manager/vendor/io/fs\r\n```\r\nthat should be fixed by adding an install step for Go 1.17. ",
+    "commentsCount": 1,
+    "createdAt": "2022-01-14T17:06:35Z",
+    "labels": [],
+    "repository": {
+      "name": "digitalocean-cloud-controller-manager",
+      "nameWithOwner": "digitalocean/digitalocean-cloud-controller-manager"
+    },
+    "state": "merged",
+    "title": "Bump github actions to go 1.17",
+    "updatedAt": "2022-01-14T17:39:24Z",
+    "url": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/402"
+  },
+  {
+    "body": "```\r\ngo get k8s.io/apimachinery@v0.22.5\r\ngo get k8s.io/mount-utils@v0.22.5\r\ngo get k8s.io/utils@master\r\ngo mod tidy\r\ngo mod vendor\r\n```",
+    "commentsCount": 0,
+    "createdAt": "2022-01-12T17:07:28Z",
+    "labels": [],
+    "repository": {
+      "name": "csi-digitalocean",
+      "nameWithOwner": "digitalocean/csi-digitalocean"
+    },
+    "state": "merged",
+    "title": "Bumped k8s dependencies to 0.22.5",
+    "updatedAt": "2022-01-26T15:34:05Z",
+    "url": "https://github.com/digitalocean/csi-digitalocean/pull/422"
+  },
+  {
+    "body": "CON-4806\r\n\r\n```\r\ngo get k8s.io/client-go@v0.22.5\r\ngo mod tidy\r\ngo mod vendor\r\n```",
+    "commentsCount": 0,
+    "createdAt": "2022-01-11T17:13:33Z",
+    "labels": [],
+    "repository": {
+      "name": "clusterlint",
+      "nameWithOwner": "digitalocean/clusterlint"
+    },
+    "state": "merged",
+    "title": "Upgrade kubernetes dependencies to 0.22.5",
+    "updatedAt": "2022-01-12T20:03:02Z",
+    "url": "https://github.com/digitalocean/clusterlint/pull/131"
+  },
+  {
+    "body": "CON-4801\r\n\r\nUpdate changelog for https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399 ",
+    "commentsCount": 0,
+    "createdAt": "2022-01-11T16:56:25Z",
+    "labels": [],
+    "repository": {
+      "name": "digitalocean-cloud-controller-manager",
+      "nameWithOwner": "digitalocean/digitalocean-cloud-controller-manager"
+    },
+    "state": "merged",
+    "title": "v0.1.36 changelog",
+    "updatedAt": "2022-01-14T17:26:12Z",
+    "url": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/400"
+  },
+  {
+    "body": "CON-4801\r\n\r\n```\r\nGO111MODULE=on go get k8s.io/client-go@v0.22.5\r\nGO111MODULE=on go get k8s.io/cloud-provider@v0.22.5\r\nGO111MODULE=on go mod tidy\r\nGO111MODULE=on go mod vendor\r\n```\r\n\r\ntodo\r\n- [ ] compatibility testing?\r\n\r\nfollow-up\r\n- [ ] https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/400\r\n\r\n[1.22.x csi update](https://github.com/digitalocean/csi-digitalocean/pull/421), dependencies ended up used the old `update-k8s` script and ended up pulling `v0.22.6-rc.0`. Just want to confirm which version is best to use",
+    "commentsCount": 0,
+    "createdAt": "2022-01-10T19:34:56Z",
+    "labels": [],
+    "repository": {
+      "name": "digitalocean-cloud-controller-manager",
+      "nameWithOwner": "digitalocean/digitalocean-cloud-controller-manager"
+    },
+    "state": "merged",
+    "title": "bump k8s dependencies to 1.22.5",
+    "updatedAt": "2022-01-14T17:00:40Z",
+    "url": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399"
+  },
+  {
+    "body": "CON-4800 \r\n\r\n- vendored 22.5 dependencies \r\n- add 1.22 version support\r\n- upgrade base alpine from `3.11` -> `3.15` (optional, just keeping things up date)\r\n- added missing controller `patch` permissions requirements that were missing [(see under breaking changes)](https://github.com/kubernetes-csi/external-snapshotter/releases/tag/v5.0.0)\r\n- added ginkgo skip for `[Feature:VolumeSourceXFS]` to avoid problematic tests - this should be removed after 1.22 whenever we have a fix for it. \r\n\r\nVendor changes\r\n```\r\ngo get k8s.io/apimachinery@v0.22.5\r\ngo get k8s.io/mount-utils@v0.22.5\r\ngo get k8s.io/utils@master\r\ngo mod tidy\r\ngo mod vendor\r\n``",
+    "commentsCount": 2,
+    "createdAt": "2022-01-10T17:54:25Z",
+    "labels": [],
+    "repository": {
+      "name": "csi-digitalocean",
+      "nameWithOwner": "digitalocean/csi-digitalocean"
+    },
+    "state": "merged",
+    "title": "Support v1.22 e2e",
+    "updatedAt": "2022-02-07T14:47:01Z",
+    "url": "https://github.com/digitalocean/csi-digitalocean/pull/420"
+  },
+  {
+    "body": "The motivation for these changes is to ensure that results are ordered as they were intended to be by the endpoint being called. Currently, pages may be inconsistently ordered after the first, depending on the order in which the async page loads are completed.  This likely hasn't been an issue since there would need to be 3+ pages (at least 401 results) to be observed. \r\n\r\nOut-of-order results can be observed by temporarily updating pagination `perPage` to some small value like `5` and running a command with more than a handfull of pages of results. \r\n\r\n### Comparing with `perPage=1` to magnify the effect\r\n\r\n**current pagination**\r\n```\r\n$ builds/doctl registry repository list\r\nName       Latest Tag    Tag Count    Updated At\r\n1            2021-12-08 17:02:20 +0000 UTC\r\nbulk_05    bulk_01       1            2021-12-08 17:02:49 +0000 UTC\r\nbulk_02    bulk_01       1            2021-12-08 17:02:45 +0000 UTC\r\nbulk_03    bulk_01       1            2021-12-08 17:02:47 +0000 UTC\r\nbulk_04    bulk_01       1            2021-12-08 17:02:47 +0000 UTC\r\nbulk_06    bulk_01       1            2021-12-08 17:02:49 +0000 UTC\r\nbulk_07    bulk_01       1            2021-12-08 17:02:50 +0000 UTC\r\nbulk_08    bulk_01       1            2021-12-08 17:02:51 +0000 UTC\r\nbulk_09    bulk_01       1            2021-12-08 17:02:52 +0000 UTC\r\nbulk_10    bulk_01       1            2021-12-08 17:02:54 +0000 UTC\r\nbulk_13    bulk_01       1            2021-12-08 17:02:56 +0000 UTC\r\nbulk_12    bulk_01       1            2021-12-08 17:02:55 +0000 UTC\r\nbulk_14    bulk_01       1            2021-12-08 17:02:58 +0000 UTC\r\nbulk_15    bulk_01       1            2021-12-08 17:02:58 +0000 UTC\r\nbulk_11    bulk_01       1            2021-12-08 17:02:54 +0000 UTC\r\nbulk_16    bulk_01       1            2021-12-08 17:02:59 +0000 UTC\r\nbulk_17    bulk_01       1            2021-12-08 17:03:00 +0000 UTC\r\nbulk_19    bulk_01       1            2021-12-08 17:03:02 +0000 UTC\r\nbulk_18    bulk_01       1            2021-12-08 17:03:01 +0000 UTC\r\nbulk_20    bulk_01       1            2021-12-08 17:03:04 +0000 UTC\r\n\r\n$ builds/doctl registry repository list\r\nName       Latest Tag    Tag Count    Updated At\r\nbulk_01    bulk_01       1            2021-12-08 17:02:20 +0000 UTC\r\nbulk_05    bulk_01       1            2021-12-08 17:02:49 +0000 UTC\r\nbulk_03    bulk_01       1            2021-12-08 17:02:47 +0000 UTC\r\nbulk_04    bulk_01       1            2021-12-08 17:02:47 +0000 UTC\r\nbulk_06    bulk_01       1            2021-12-08 17:02:49 +0000 UTC\r\nbulk_02    bulk_01       1            2021-12-08 17:02:45 +0000 UTC\r\nbulk_07    bulk_01       1            2021-12-08 17:02:50 +0000 UTC\r\nbulk_10    bulk_01       1            2021-12-08 17:02:54 +0000 UTC\r\nbulk_08    bulk_01       1            2021-12-08 17:02:51 +0000 UTC\r\nbulk_09    bulk_01       1            2021-12-08 17:02:52 +0000 UTC\r\nbulk_11    bulk_01       1            2021-12-08 17:02:54 +0000 UTC\r\nbulk_12    bulk_01       1            2021-12-08 17:02:55 +0000 UTC\r\nbulk_13    bulk_01       1            2021-12-08 17:02:56 +0000 UTC\r\nbulk_14    bulk_01       1            2021-12-08 17:02:58 +0000 UTC\r\nbulk_15    bulk_01       1            2021-12-08 17:02:58 +0000 UTC\r\nbulk_17    bulk_01       1            2021-12-08 17:03:00 +0000 UTC\r\nbulk_16    bulk_01       1            2021-12-08 17:02:59 +0000 UTC\r\nbulk_18    bulk_01       1            2021-12-08 17:03:01 +0000 UTC\r\nbulk_20    bulk_01       1            2021-12-08 17:03:04 +0000 UTC\r\nbulk_19    bulk_01       1            2021-12-08 17:03:02 +0000 UTC\r\n\r\n```\r\n\r\n**updated pagination**\r\n```\r\n$ time builds/doctl registry repository list\r\nName       Latest Tag    Tag Count    Updated At\r\nbulk_01    bulk_01       1            2021-12-08 17:02:20 +0000 UTC\r\nbulk_02    bulk_01       1            2021-12-08 17:02:45 +0000 UTC\r\nbulk_03    bulk_01       1            2021-12-08 17:02:47 +0000 UTC\r\nbulk_04    bulk_01       1            2021-12-08 17:02:47 +0000 UTC\r\nbulk_05    bulk_01       1            2021-12-08 17:02:49 +0000 UTC\r\nbulk_06    bulk_01       1            2021-12-08 17:02:49 +0000 UTC\r\nbulk_07    bulk_01       1            2021-12-08 17:02:50 +0000 UTC\r\nbulk_08    bulk_01       1            2021-12-08 17:02:51 +0000 UTC\r\nbulk_09    bulk_01       1            2021-12-08 17:02:52 +0000 UTC\r\nbulk_10    bulk_01       1            2021-12-08 17:02:54 +0000 UTC\r\nbulk_11    bulk_01       1            2021-12-08 17:02:54 +0000 UTC\r\nbulk_12    bulk_01       1            2021-12-08 17:02:55 +0000 UTC\r\nbulk_13    bulk_01       1            2021-12-08 17:02:56 +0000 UTC\r\nbulk_14    bulk_01       1            2021-12-08 17:02:58 +0000 UTC\r\nbulk_15    bulk_01       1            2021-12-08 17:02:58 +0000 UTC\r\nbulk_16    bulk_01       1            2021-12-08 17:02:59 +0000 UTC\r\nbulk_17    bulk_01       1            2021-12-08 17:03:00 +0000 UTC\r\nbulk_18    bulk_01       1            2021-12-08 17:03:01 +0000 UTC\r\nbulk_19    bulk_01       1            2021-12-08 17:03:02 +0000 UTC\r\nbulk_20    bulk_01       1            2021-12-08 17:03:04 +0000 UTC\r\n```",
+    "commentsCount": 0,
+    "createdAt": "2021-12-07T22:47:30Z",
+    "labels": [],
+    "repository": {
+      "name": "doctl",
+      "nameWithOwner": "digitalocean/doctl"
+    },
+    "state": "merged",
+    "title": "pagination: updated pagination to give deterministic and natural ordering",
+    "updatedAt": "2021-12-08T21:15:44Z",
+    "url": "https://github.com/digitalocean/doctl/pull/1070"
+  },
+  {
+    "body": "CON-3907\r\n\r\nRequired bump to godo 1.73",
+    "commentsCount": 0,
+    "createdAt": "2021-12-07T20:41:05Z",
+    "labels": [],
+    "repository": {
+      "name": "doctl",
+      "nameWithOwner": "digitalocean/doctl"
+    },
+    "state": "merged",
+    "title": "registry: Add support for ListRepositoriesV2 and ListManifests commands.",
+    "updatedAt": "2021-12-07T22:42:50Z",
+    "url": "https://github.com/digitalocean/doctl/pull/1069"
+  },
+  {
+    "body": "Release for https://github.com/digitalocean/godo/pull/501 ",
+    "commentsCount": 0,
+    "createdAt": "2021-12-03T19:26:11Z",
+    "labels": [],
+    "repository": {
+      "name": "godo",
+      "nameWithOwner": "digitalocean/godo"
+    },
+    "state": "merged",
+    "title": "Prep v1.73 release",
+    "updatedAt": "2021-12-03T21:29:55Z",
+    "url": "https://github.com/digitalocean/godo/pull/504"
+  },
+  {
+    "body": "**Changes**\r\n- Adds godo support for new endpoints. See docs PR https://github.com/digitalocean/openapi/pull/567 \r\n\r\nI did go ahead and create a throwaway project to test these new methods and they work as expected. The token pagination also works well 👍🏻 \r\n\r\n**Follow up**\r\n- Changelog / version bump\r\n- Add support to doctl\r\n\r\nCON-3907",
+    "commentsCount": 2,
+    "createdAt": "2021-11-24T20:15:00Z",
+    "labels": [],
+    "repository": {
+      "name": "godo",
+      "nameWithOwner": "digitalocean/godo"
+    },
+    "state": "merged",
+    "title": "registry: Add ListManfiests and ListRepositoriesV2 api endpoint support + Token pagination",
+    "updatedAt": "2021-12-03T19:20:16Z",
+    "url": "https://github.com/digitalocean/godo/pull/501"
+  },
+  {
+    "body": "- Adds docs for repository `ListManifests` endpoint\r\n- Adds docs for repository `ListRepositoriesV2` endpoint\r\n- Deprecates `ListRepositories` endpoint",
+    "commentsCount": 3,
+    "createdAt": "2021-11-22T17:23:58Z",
+    "labels": [],
+    "repository": {
+      "name": "openapi",
+      "nameWithOwner": "digitalocean/openapi"
+    },
+    "state": "merged",
+    "title": "registry/CON-3906: Added documentation for new registry/http endpoints: ListRepositoriesV2 and ListManifests",
+    "updatedAt": "2022-03-01T17:58:48Z",
+    "url": "https://github.com/digitalocean/openapi/pull/567"
+  },
+  {
+    "body": "[(merged) PR digitalocean/docker-distribution](https://github.com/digitalocean/docker-distribution/pull/17)\r\n\r\n### **Objective**\r\nblobstore enumeration with S3 storage driver (and possibly others with follow up effort) can be optimized by several orders of magnitude in most cases by offloading more work to the S3 API. In some cases this gives identical performance but in extreme cases, eg thousands of blobs in separate folders, this gives a huge performance boost. \r\n\r\n### **Changes**\r\n - Use `ListObjectsV2PagesWithContext` **without** `Delimiter`, giving all objects of subpaths in batches up to 1000\r\n - Infer directories (no longer listed without `Delimiter` & recursive implementation) by comparing subsequent object paths of different subdirectories\r\n - Keep track of skipped directory and manually skip over any objects under that directory. **Note**: I acknowledge this could bel less efficient in some extreme cases. The usage patterns in the context of registry should be such that we get an overall performance increase in all cases, at least that I'm aware of. \r\n - Added tests for S3 Walk implementation\r\n - Added tests for fallback Walk implementation\r\n\r\n\r\n**Bug Fix**\r\nWhile testing, I noticed that `WalkFallback` does not handle `ErrSkipDir` as documented for non-directory.\r\n- **Expected**: `WalkFallback` should stop when `ErrSkipDir` is returned for a non-directory, [as documented `WalkFallback` ](https://github.com/distribution/distribution/blob/6affafd1f030087d88f88841bf66a8abe2bf4d24/registry/storage/driver/walk.go#L23)\r\n- **Actual**: `WalkFallback` handles `ErrSkipDir` for non-directory by skipping the file and does not stop. This is tested with the added case `TestWalkFallback/stop early`\r\n\r\n### **Run S3 Tests**\r\n```\r\n#export REGION_ENDPOINT=sfo3.digitaloceanspaces.com\r\nexport AWS_REGION=us-east-1\r\nexport AWS_ACCESS_KEY=<key>\r\nexport AWS_SECRET_KEY=<secret>\r\nexport S3_BUCKET=<bucket>\r\ngo test -run TestWalk -v ./registry/storage/driver/s3-aws/...\r\n```\r\n\r\n### **Performance**\r\nOn a few test registries, I performed a rough benchmark using `BlobEnumerator::enumerate` twice: Once before making these chances & again with the changes. I used a few local changes to keep track of the number of objects / folders enumerated and API calls made.\r\n\r\n**Test 1 (medium)** ~300 blobs\r\n- Before\r\n   - Took 53.9 seconds\r\n   - 479 API calls\r\n- After\r\n  - Took 0.128 seconds\r\n  - 1 API call\r\n\r\n**Results**\r\n- Reduce runtime by factor of 421\r\n- Reduce API calls by a factor of 479 \r\n\r\n**Test 2 (large)** ~50k blobs\r\nOnly the first 5 minutes of `Walk` are recorded and extrapolated, which I think is fair to get the point across\r\n- Before - partial results\r\n   - Took 5 minutes\r\n   - 2680 API calls\r\n- Before - extrapolated (x18)\r\n   - Took 89.74 minutes\r\n   - 48100 API calls\r\n- After\r\n  - Took 9.85 seconds\r\n  - 49 API call\r\n\r\n**Results**\r\n- Reduce runtime by factor of 546\r\n- Reduce API calls by a factor of 981. \r\n",
+    "commentsCount": 17,
+    "createdAt": "2021-08-12T15:36:36Z",
+    "labels": [
+      {
+        "color": "fbca04",
+        "description": "",
+        "id": "MDU6TGFiZWw0ODc2MzI2MzM=",
+        "name": "area/storage/s3"
+      }
+    ],
+    "repository": {
+      "name": "distribution",
+      "nameWithOwner": "distribution/distribution"
+    },
+    "state": "merged",
+    "title": "Optimize storagedriver/s3 Walk (up to ~500x) + small bugfix",
+    "updatedAt": "2021-11-26T01:50:11Z",
+    "url": "https://github.com/distribution/distribution/pull/3480"
+  },
+  {
+    "body": "fixes https://github.com/distribution/distribution/issues/3142\r\n\r\n[(merged) PR digitalocean/docker-distribution #20](https://github.com/digitalocean/docker-distribution/pull/20)\r\n\r\n**Overview**\r\nThese changes address a low level bug which at a minimum is causing the tag service `Untag` method to sometimes not delete the respective tag files as expected. After a lot of digging, the root cause was tracked down to an edge case that was not properly being handled in the S3 storage driver Delete implementation. \r\n\r\nCurrently, the S3 storage driver Delete implementation lists all paths with a given prefix. To expand on this further, listing `{path}` gives expected results like `{path}` and `{path}/{subpath}` but may also give unwanted results of the form `{path}{suffix}` and `{path}{suffix}/{subpath}`. Any unwanted results were handled by short-circuiting the list traversal once any unwanted result was encountered, under the assumption that any unwanted result would come strictly after _all_ desired results. \r\n\r\n**Issue** (bare with me on the explanation) \r\nThis assumption that unwanted results come strictly after _all_ desired results does not always hold. In particular, for a given `{path}` where S3 List will contain undesired paths of the form `{path}-.*` or `{path}-.*/{subpath}`, these undesired paths come **before** desired `{path}/{subpath}` causing a short circuit before any subpaths `{path}/{subpath}` are found. The S3 List API returns objects with `{path}-...` before `{path}/...`: I suspect the reason for this is that S3 returns paths in ASCII sorted order (ASCII dash `-` comes before slash `/`, so this makes sense). This is the case for both DO Spaces and AWS S3. \r\n\r\nIn practice, this is what caused the tag service `Untag` function to fail; when a similar tag of the form `{tag}-.*` existed.\r\n\r\n**Proposed Solution**\r\nThe proposed solution here is to \r\n1. Delete `{path}` if it's a file\r\n2. List and delete all objects with the prefix `{path}/`\r\n\r\n**Tests**\r\nS3 tests were added to reproduce the issue described above and confirm the proposed changes, along with what I judged as some reasonable standard behavior. I've confirmed these tests run identically (before and after these changes) against both DO Spaces and AWS S3. ",
+    "commentsCount": 10,
+    "createdAt": "2021-08-12T14:53:42Z",
+    "labels": [],
+    "repository": {
+      "name": "distribution",
+      "nameWithOwner": "distribution/distribution"
+    },
+    "state": "merged",
+    "title": "Updated s3 delete to no longer noop under a rare edge case",
+    "updatedAt": "2021-08-16T14:40:01Z",
+    "url": "https://github.com/distribution/distribution/pull/3479"
+  },
+  {
+    "body": "**Overview**\r\nThese changes address a low level bug which at a minimum is causing the tag service `Untag` method to sometimes not delete the respective tag files as expected. After a lot of digging, the root cause was tracked down to an edge case that was not properly being handled in the S3 storage driver Delete implementation. \r\n\r\nCurrently, the S3 storage driver Delete implementation lists all paths with a given prefix. To expand on this further, listing `{path}` gives expected results like `{path}` and `{path}/{subpath}` but may also give unwanted results of the form `{path}{suffix}` and `{path}{suffix}/{subpath}`. Any unwanted results were handled by short-circuiting the list traversal once any unwanted result was encountered, under the assumption that any unwanted result would come strictly after _all_ desired results. \r\n\r\n**Issue**\r\nThis assumption that unwanted results come strictly after _all_ desired results does not always hold. In particular, for a given `{path}` where S3 List will contain undesired paths of the form `{path}-.*` or `{path}-.*/{subpath}`, these undesired paths come **before** desired `{path}/{subpath}` causing a short circuit before any subpaths `{path}/{subpath}` are found. The S3 List API returns objects with `{path}-...` before `{path}/...`: I suspect the reason for this is that S3 returns paths in ASCII sorted order (ASCII dash `-` comes before slash `/`, so this makes sense). This is the case for both DO Spaces and AWS S3. \r\n\r\nIn practice, this is what caused the tag service `Untag` function to fail; when a similar tag of the form `{tag}-.*` existed.\r\n\r\n**Proposed Solution**\r\nThe proposed solution here is to \r\n1. Delete `{path}` if it's a file\r\n2. List and delete all objects with the prefix `{path}/`\r\n\r\n**Tests**\r\nS3 tests were added to reproduce the issue described above and confirm the proposed changes, along with what I judged as some reasonable standard behavior. I've confirmed these tests run identically (before and after these changes) against both DO Spaces and AWS S3. ",
+    "commentsCount": 0,
+    "createdAt": "2021-08-11T16:39:37Z",
+    "labels": [],
+    "repository": {
+      "name": "docker-distribution",
+      "nameWithOwner": "digitalocean/docker-distribution"
+    },
+    "state": "merged",
+    "title": "storagedriver/s3: Storage driver Delete no longer lists paths other than subpaths",
+    "updatedAt": "2021-08-11T20:19:08Z",
+    "url": "https://github.com/digitalocean/docker-distribution/pull/20"
+  },
+  {
+    "body": "Updated the S3 Storage Driver `Delete` implementation to now return an error when one or more embedded response errors are returned. \r\n\r\nPart of the `DeleteObjectsOutput` response when using S3 SDK `DeleteObjects` is a list of zero or more errors pertaining to a particular key from the request.\r\n\r\nhttps://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObjects.html \r\nExample from the documentation\r\n```\r\nHTTP/1.1 200 OK\r\nx-amz-id-2: 5h4FxSNCUS7wP5z92eGCWDshNpMnRuXvETa4HH3LvvH6VAIr0jU7tH9kM7X+njXx\r\nx-amz-request-id: A437B3B641629AEE\r\nDate: Fri, 02 Dec 2011 01:53:42 GMT\r\nContent-Type: application/xml\r\nServer: AmazonS3\r\nContent-Length: 251\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<DeleteResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\">\r\n <Deleted>\r\n   <Key>sample1.txt</Key>\r\n </Deleted>\r\n <Error>\r\n  <Key>sample2.txt</Key>\r\n  <Code>AccessDenied</Code>\r\n  <Message>Access Denied</Message>\r\n </Error>\r\n</DeleteResult>\r\n```\r\nNote the presence of `HTTP/1.1 200 OK` which I expect would result in no errors. With the proposed changes, a response like this will now result in an error `AccessDenied`\r\n",
+    "commentsCount": 0,
+    "createdAt": "2021-08-10T16:16:25Z",
+    "labels": [],
+    "repository": {
+      "name": "docker-distribution",
+      "nameWithOwner": "digitalocean/docker-distribution"
+    },
+    "state": "merged",
+    "title": "storagedriver/s3: Handle bulk delete partial failures as failure",
+    "updatedAt": "2022-02-11T00:46:48Z",
+    "url": "https://github.com/digitalocean/docker-distribution/pull/19"
+  },
+  {
+    "body": "[Upstream PR #3480](https://github.com/distribution/distribution/pull/3480)\r\n\r\n### **Objective**\r\nblobstore enumeration with S3 storage driver (and possibly others with follow up effort) can be optimized by several orders of magnitude in most cases by offloading more work to the S3 API. In some cases this gives identical performance but in extreme cases, eg thousands of blobs in separate folders, this gives a huge performance boost. \r\n\r\n### **Changes**\r\n - Use `ListObjectsV2PagesWithContext` **without** `Delimiter`, giving all objects of subpaths in batches up to 1000\r\n - Infer directories (no longer listed without `Delimiter` & recursive implementation) by comparing subsequent object paths of different subdirectories\r\n - Keep track of skipped directory and manually skip over any objects under that directory. **Note**: I acknowledge this could bel less efficient in some extreme cases. The usage patterns in the context of registry should be such that we get an overall performance increase in all cases, at least that I'm aware of. \r\n - Added tests for S3 Walk implementation\r\n - Added tests for fallback Walk implementation\r\n\r\n\r\n**Bug Fix**\r\nWhile testing, I noticed that `WalkFallback` does not handle `ErrSkipDir` as documented for non-directory.\r\n- **Expected**: `WalkFallback` should stop when `ErrSkipDir` is returned for a non-directory, [as documented `WalkFallback` ](https://github.com/distribution/distribution/blob/6affafd1f030087d88f88841bf66a8abe2bf4d24/registry/storage/driver/walk.go#L23)\r\n- **Actual**: `WalkFallback` handles `ErrSkipDir` for non-directory by skipping the file and does not stop. This is tested with the added case `TestWalkFallback/stop early`\r\n\r\n### **Run S3 Tests**\r\n```\r\n#export REGION_ENDPOINT=sfo3.digitaloceanspaces.com\r\nexport AWS_REGION=us-east-1\r\nexport AWS_ACCESS_KEY=<key>\r\nexport AWS_SECRET_KEY=<secret>\r\nexport S3_BUCKET=<bucket>\r\ngo test -run TestWalk -v ./registry/storage/driver/s3-aws/...\r\n```\r\n\r\n### **Performance**\r\nOn a few test registries, I performed a rough benchmark using `BlobEnumerator::enumerate` twice: Once before making these chances & again with the changes. I used a few local changes to keep track of the number of objects / folders enumerated and API calls made.\r\n\r\n**Test 1 (medium)** ~300 blobs\r\n- Before\r\n   - Took 53.9 seconds\r\n   - 479 API calls\r\n- After\r\n  - Took 0.128 seconds\r\n  - 1 API call\r\n\r\n**Results**\r\n- Reduce runtime by factor of 421\r\n- Reduce API calls by a factor of 479 \r\n\r\n**Test 2 (large)** ~50k blobs\r\nOnly the first 5 minutes of `Walk` are recorded and extrapolated, which I think is fair to get the point across\r\n- Before - partial results\r\n   - Took 5 minutes\r\n   - 2680 API calls\r\n- Before - extrapolated (x18)\r\n   - Took 89.74 minutes\r\n   - 48100 API calls\r\n- After\r\n  - Took 9.85 seconds\r\n  - 49 API call\r\n\r\n**Results**\r\n- Reduce runtime by factor of 546\r\n- Reduce API calls by a factor of 981. \r\n",
+    "commentsCount": 1,
+    "createdAt": "2021-06-28T16:27:53Z",
+    "labels": [],
+    "repository": {
+      "name": "docker-distribution",
+      "nameWithOwner": "digitalocean/docker-distribution"
+    },
+    "state": "merged",
+    "title": "registry/storagedriver S3 Walk optimization",
+    "updatedAt": "2021-08-18T13:58:47Z",
+    "url": "https://github.com/digitalocean/docker-distribution/pull/17"
+  },
+  {
+    "body": "[DO Related Ticket](https://jira.internal.digitalocean.com/browse/CON-4436)\r\n\r\nThis change is needed to be able to get the file modification (update) time. ",
+    "commentsCount": 0,
+    "createdAt": "2021-06-24T14:48:36Z",
+    "labels": [],
+    "repository": {
+      "name": "docker-distribution",
+      "nameWithOwner": "digitalocean/docker-distribution"
+    },
+    "state": "merged",
+    "title": "Add mod time to registry blob descriptor",
+    "updatedAt": "2021-06-24T20:53:18Z",
+    "url": "https://github.com/digitalocean/docker-distribution/pull/15"
+  }
+]
