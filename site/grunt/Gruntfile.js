@@ -51,7 +51,11 @@ function indexPrs(grunt) {
     for (const pr of prs) {
         var body = "";
         if (pr.body != null && pr.body.length > 0) {
-            body = pr.body.substr(0, 150) + " ...";
+            if (pr.body.length > 200) {
+                body = pr.body.substr(0, 150) + " ...";
+            } else {
+                body = pr.body;
+            }
         }
         indexes.push({
             title: `[GitHub PR] ${pr.repository.nameWithOwner}: ${pr.title}`,

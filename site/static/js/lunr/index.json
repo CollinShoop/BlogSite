@@ -26,7 +26,7 @@
   {
     "title": "Search Results",
     "href": "/search/",
-    "date": "2023-04-30T04:22:13.000Z"
+    "date": null
   },
   {
     "title": "[GitHub Gist] Java example for Indexing",
@@ -266,31 +266,31 @@
   {
     "title": "[GitHub PR] digitalocean/godo: Prep v1.76 release",
     "href": "https://github.com/digitalocean/godo/pull/517",
-    "summary": "[merged] Includes #516 ...",
+    "summary": "[merged] Includes #516 ",
     "date": "2022-03-10T15:17:56.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/doctl: docr: add region support",
     "href": "https://github.com/digitalocean/doctl/pull/1118",
-    "summary": "[merged] Changes depend on godo bump...",
+    "summary": "[merged] Changes depend on godo bump",
     "date": "2022-03-10T20:57:10.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/godo: registry: Add registry region support",
     "href": "https://github.com/digitalocean/godo/pull/516",
-    "summary": "[merged] Added DOCR Registry and Options region support to reflect API changes added with CON-5476/CON-5477 (not yet deployed). \r\n\r\nPairs with https://github.c...",
+    "summary": "[merged] Added DOCR Registry and Options region support to reflect API changes added with CON-5476/CON-5477 (not yet deployed). \r\n\r\nPairs with https://github.com/digitalocean/openapi/pull/589",
     "date": "2022-03-08T14:49:44.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/openapi: registry: Added support for new region param",
     "href": "https://github.com/digitalocean/openapi/pull/589",
-    "summary": "[merged] Not ready for merge until backend work is completed: CON-5476 & CON-5477...",
+    "summary": "[merged] Not ready for merge until backend work is completed: CON-5476 & CON-5477",
     "date": "2022-03-10T15:59:26.000Z"
   },
   {
     "title": "[GitHub PR] WoozyMasta/kube-dump: Added flags to control output structure & another flag for flat dumps",
     "href": "https://github.com/WoozyMasta/kube-dump/pull/29",
-    "summary": "[merged] Hey @WoozyMasta 👋🏻 Very cool project, I was looking at making something just like this and figured I should contribute instead. \r\n\r\nFor my own use, ...",
+    "summary": "[merged] Hey @WoozyMasta 👋🏻 Very cool project, I was looking at making something just like this and figured I should contribute instead. \r\n\r\nFor my own use,  ...",
     "date": "2022-02-11T00:45:30.000Z"
   },
   {
@@ -302,109 +302,109 @@
   {
     "title": "[GitHub PR] digitalocean/clusterlint: Remove v1beta1 admission/controller webhook checks",
     "href": "https://github.com/digitalocean/clusterlint/pull/135",
-    "summary": "[merged] In response to Varsha's feedback https://digitalocean.slack.com/archives/C4HREK3T6/p1642600991098500 \r\n\r\nbefore\r\n```\r\n$ ./clusterlint --kubeconfig kub...",
+    "summary": "[merged] In response to Varsha's feedback https://digitalocean.slack.com/archives/C4HREK3T6/p1642600991098500 \r\n\r\nbefore\r\n```\r\n$ ./clusterlint --kubeconfig kub ...",
     "date": "2022-01-26T17:09:23.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/digitalocean-cloud-controller-manager: Bump github actions to go 1.17",
     "href": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/402",
-    "summary": "[merged] Release running into the following \r\n```\r\nvendor/k8s.io/client-go/plugin/pkg/client/auth/exec/metrics.go:21:2: cannot find package \".\" in:\r\n\t/home/run...",
+    "summary": "[merged] Release running into the following \r\n```\r\nvendor/k8s.io/client-go/plugin/pkg/client/auth/exec/metrics.go:21:2: cannot find package \".\" in:\r\n\t/home/run ...",
     "date": "2022-01-14T17:39:24.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/csi-digitalocean: Bumped k8s dependencies to 0.22.5",
     "href": "https://github.com/digitalocean/csi-digitalocean/pull/422",
-    "summary": "[merged] ```\r\ngo get k8s.io/apimachinery@v0.22.5\r\ngo get k8s.io/mount-utils@v0.22.5\r\ngo get k8s.io/utils@master\r\ngo mod tidy\r\ngo mod vendor\r\n```...",
+    "summary": "[merged] ```\r\ngo get k8s.io/apimachinery@v0.22.5\r\ngo get k8s.io/mount-utils@v0.22.5\r\ngo get k8s.io/utils@master\r\ngo mod tidy\r\ngo mod vendor\r\n```",
     "date": "2022-01-26T15:34:05.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/clusterlint: Upgrade kubernetes dependencies to 0.22.5",
     "href": "https://github.com/digitalocean/clusterlint/pull/131",
-    "summary": "[merged] CON-4806\r\n\r\n```\r\ngo get k8s.io/client-go@v0.22.5\r\ngo mod tidy\r\ngo mod vendor\r\n```...",
+    "summary": "[merged] CON-4806\r\n\r\n```\r\ngo get k8s.io/client-go@v0.22.5\r\ngo mod tidy\r\ngo mod vendor\r\n```",
     "date": "2022-01-12T20:03:02.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/digitalocean-cloud-controller-manager: v0.1.36 changelog",
     "href": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/400",
-    "summary": "[merged] CON-4801\r\n\r\nUpdate changelog for https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399 ...",
+    "summary": "[merged] CON-4801\r\n\r\nUpdate changelog for https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399 ",
     "date": "2022-01-14T17:26:12.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/digitalocean-cloud-controller-manager: bump k8s dependencies to 1.22.5",
     "href": "https://github.com/digitalocean/digitalocean-cloud-controller-manager/pull/399",
-    "summary": "[merged] CON-4801\r\n\r\n```\r\nGO111MODULE=on go get k8s.io/client-go@v0.22.5\r\nGO111MODULE=on go get k8s.io/cloud-provider@v0.22.5\r\nGO111MODULE=on go mod tidy\r\nGO11...",
+    "summary": "[merged] CON-4801\r\n\r\n```\r\nGO111MODULE=on go get k8s.io/client-go@v0.22.5\r\nGO111MODULE=on go get k8s.io/cloud-provider@v0.22.5\r\nGO111MODULE=on go mod tidy\r\nGO11 ...",
     "date": "2022-01-14T17:00:40.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/csi-digitalocean: Support v1.22 e2e",
     "href": "https://github.com/digitalocean/csi-digitalocean/pull/420",
-    "summary": "[merged] CON-4800 \r\n\r\n- vendored 22.5 dependencies \r\n- add 1.22 version support\r\n- upgrade base alpine from `3.11` -> `3.15` (optional, just keeping things up ...",
+    "summary": "[merged] CON-4800 \r\n\r\n- vendored 22.5 dependencies \r\n- add 1.22 version support\r\n- upgrade base alpine from `3.11` -> `3.15` (optional, just keeping things up  ...",
     "date": "2022-02-07T14:47:01.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/doctl: pagination: updated pagination to give deterministic and natural ordering",
     "href": "https://github.com/digitalocean/doctl/pull/1070",
-    "summary": "[merged] The motivation for these changes is to ensure that results are ordered as they were intended to be by the endpoint being called. Currently, pages may ...",
+    "summary": "[merged] The motivation for these changes is to ensure that results are ordered as they were intended to be by the endpoint being called. Currently, pages may  ...",
     "date": "2021-12-08T21:15:44.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/doctl: registry: Add support for ListRepositoriesV2 and ListManifests commands.",
     "href": "https://github.com/digitalocean/doctl/pull/1069",
-    "summary": "[merged] CON-3907\r\n\r\nRequired bump to godo 1.73...",
+    "summary": "[merged] CON-3907\r\n\r\nRequired bump to godo 1.73",
     "date": "2021-12-07T22:42:50.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/godo: Prep v1.73 release",
     "href": "https://github.com/digitalocean/godo/pull/504",
-    "summary": "[merged] Release for https://github.com/digitalocean/godo/pull/501 ...",
+    "summary": "[merged] Release for https://github.com/digitalocean/godo/pull/501 ",
     "date": "2021-12-03T21:29:55.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/godo: registry: Add ListManfiests and ListRepositoriesV2 api endpoint support + Token pagination",
     "href": "https://github.com/digitalocean/godo/pull/501",
-    "summary": "[merged] **Changes**\r\n- Adds godo support for new endpoints. See docs PR https://github.com/digitalocean/openapi/pull/567 \r\n\r\nI did go ahead and create a throw...",
+    "summary": "[merged] **Changes**\r\n- Adds godo support for new endpoints. See docs PR https://github.com/digitalocean/openapi/pull/567 \r\n\r\nI did go ahead and create a throw ...",
     "date": "2021-12-03T19:20:16.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/openapi: registry/CON-3906: Added documentation for new registry/http endpoints: ListRepositoriesV2 and ListManifests",
     "href": "https://github.com/digitalocean/openapi/pull/567",
-    "summary": "[merged] - Adds docs for repository `ListManifests` endpoint\r\n- Adds docs for repository `ListRepositoriesV2` endpoint\r\n- Deprecates `ListRepositories` endpoin...",
+    "summary": "[merged] - Adds docs for repository `ListManifests` endpoint\r\n- Adds docs for repository `ListRepositoriesV2` endpoint\r\n- Deprecates `ListRepositories` endpoint",
     "date": "2022-03-01T17:58:48.000Z"
   },
   {
     "title": "[GitHub PR] distribution/distribution: Optimize storagedriver/s3 Walk (up to ~500x) + small bugfix",
     "href": "https://github.com/distribution/distribution/pull/3480",
-    "summary": "[merged] [(merged) PR digitalocean/docker-distribution](https://github.com/digitalocean/docker-distribution/pull/17)\r\n\r\n### **Objective**\r\nblobstore enumeratio...",
+    "summary": "[merged] [(merged) PR digitalocean/docker-distribution](https://github.com/digitalocean/docker-distribution/pull/17)\r\n\r\n### **Objective**\r\nblobstore enumeratio ...",
     "date": "2021-11-26T01:50:11.000Z"
   },
   {
     "title": "[GitHub PR] distribution/distribution: Updated s3 delete to no longer noop under a rare edge case",
     "href": "https://github.com/distribution/distribution/pull/3479",
-    "summary": "[merged] fixes https://github.com/distribution/distribution/issues/3142\r\n\r\n[(merged) PR digitalocean/docker-distribution #20](https://github.com/digitalocean/d...",
+    "summary": "[merged] fixes https://github.com/distribution/distribution/issues/3142\r\n\r\n[(merged) PR digitalocean/docker-distribution #20](https://github.com/digitalocean/d ...",
     "date": "2021-08-16T14:40:01.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/docker-distribution: storagedriver/s3: Storage driver Delete no longer lists paths other than subpaths",
     "href": "https://github.com/digitalocean/docker-distribution/pull/20",
-    "summary": "[merged] **Overview**\r\nThese changes address a low level bug which at a minimum is causing the tag service `Untag` method to sometimes not delete the respectiv...",
+    "summary": "[merged] **Overview**\r\nThese changes address a low level bug which at a minimum is causing the tag service `Untag` method to sometimes not delete the respectiv ...",
     "date": "2021-08-11T20:19:08.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/docker-distribution: storagedriver/s3: Handle bulk delete partial failures as failure",
     "href": "https://github.com/digitalocean/docker-distribution/pull/19",
-    "summary": "[merged] Updated the S3 Storage Driver `Delete` implementation to now return an error when one or more embedded response errors are returned. \r\n\r\nPart of the `...",
+    "summary": "[merged] Updated the S3 Storage Driver `Delete` implementation to now return an error when one or more embedded response errors are returned. \r\n\r\nPart of the ` ...",
     "date": "2022-02-11T00:46:48.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/docker-distribution: registry/storagedriver S3 Walk optimization",
     "href": "https://github.com/digitalocean/docker-distribution/pull/17",
-    "summary": "[merged] [Upstream PR #3480](https://github.com/distribution/distribution/pull/3480)\r\n\r\n### **Objective**\r\nblobstore enumeration with S3 storage driver (and po...",
+    "summary": "[merged] [Upstream PR #3480](https://github.com/distribution/distribution/pull/3480)\r\n\r\n### **Objective**\r\nblobstore enumeration with S3 storage driver (and po ...",
     "date": "2021-08-18T13:58:47.000Z"
   },
   {
     "title": "[GitHub PR] digitalocean/docker-distribution: Add mod time to registry blob descriptor",
     "href": "https://github.com/digitalocean/docker-distribution/pull/15",
-    "summary": "[merged] [DO Related Ticket](https://jira.internal.digitalocean.com/browse/CON-4436)\r\n\r\nThis change is needed to be able to get the file modification (update) ...",
+    "summary": "[merged] [DO Related Ticket](https://jira.internal.digitalocean.com/browse/CON-4436)\r\n\r\nThis change is needed to be able to get the file modification (update) time. ",
     "date": "2021-06-24T20:53:18.000Z"
   }
 ]

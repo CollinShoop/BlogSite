@@ -8,6 +8,9 @@ local:
 
 deploy: pull-github-content index-content hugo-deploy
 
+google-login:
+	gcloud auth application-default login
+
 pull-github-content:
 	cd ../script/gh && make pull
 

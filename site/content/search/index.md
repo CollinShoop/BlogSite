@@ -1,6 +1,5 @@
 ---
 title: "Search Results"
-date: 2023-04-30T00:22:13-04:00
 draft: false
 ---
 

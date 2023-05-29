@@ -4,6 +4,7 @@
 
 1. [Hugo CLI](https://gohugo.io/installation/)
 1. [GitHub CLI](https://cli.github.com/)
+1. [GCloud CLI](https://cloud.google.com/sdk/docs/install)
 
 ## Update Content
 
